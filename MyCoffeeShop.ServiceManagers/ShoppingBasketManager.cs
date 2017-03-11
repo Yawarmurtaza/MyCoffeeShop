@@ -8,8 +8,8 @@ namespace MyCoffeeShop.ServiceManagers
 {
 
     public class ShoppingBasketManager : IShoppingBasketManager
-    {        
-
+    {       
+        
         private readonly IShoppingBasketDataAccess shoppingBasketDataAccess;
 
         public ShoppingBasketManager(IShoppingBasketDataAccess shoppingBasketDataAccess)
