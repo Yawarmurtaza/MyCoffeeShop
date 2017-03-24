@@ -3,3 +3,4 @@ E:\Development\VS\MyCoffeeShop\MyCoffeeShop.DomainModel\bin\Debug\net46\MyCoffee
 E:\Development\VS\MyCoffeeShop\MyCoffeeShop.DomainModel\obj\Debug\net46\MyCoffeeShop.DomainModel.AssemblyInfo.cs
 E:\Development\VS\MyCoffeeShop\MyCoffeeShop.DomainModel\obj\Debug\net46\MyCoffeeShop.DomainModel.dll
 E:\Development\VS\MyCoffeeShop\MyCoffeeShop.DomainModel\obj\Debug\net46\MyCoffeeShop.DomainModel.pdb
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.DomainModel\obj\Debug\net46\MyCoffeeShop.DomainModel.csprojResolveAssemblyReference.cache

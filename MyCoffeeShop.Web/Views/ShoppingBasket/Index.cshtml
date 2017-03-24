@@ -18,9 +18,9 @@
             {
                 <tr>
                     <td class="text-center">
-                        <a class="btn btn-info" asp-controller="ShoppingBasket" asp-action="AddMoreCoffee">+</a>
+                        <a class="btn btn-info" asp-controller="ShoppingBasket" asp-action="AddToShoppingBasket" asp-route-coffeeId="@line.Coffee.Id">+</a>
                         @line.Quantity
-                        <a class="btn btn-primary" asp-controller="ShoppingBasket" asp-action="AddLessCoffee">-</a>
+                        <a class="btn btn-primary" asp-controller="ShoppingBasket" asp-action="RemoveCoffeeFromBasket" asp-route-coffeeid="@line.Coffee.Id">-</a>
                     </td>
                     <td class="text-left">@line.Coffee.Name</td>
                     <td class="text-right">@line.Coffee.Price.ToString("c")</td>

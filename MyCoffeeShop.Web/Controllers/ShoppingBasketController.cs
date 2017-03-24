@@ -41,5 +41,11 @@ namespace MyCoffeeShop.Web.Controllers
             await this.manager.AddCoffeeToBasket(coffeeToadd, base.BasketId);
             return this.RedirectToAction("Index");
         }
+
+        public async Task<ActionResult> RemoveCoffeeFromBasket(int coffeeId)
+        {
+            await this.manager.RemoveCoffeeFromBasket(coffeeId, base.BasketId);
+            return this.RedirectToAction("Index");
+        }
     }
 }
